@@ -79,10 +79,7 @@
                     </div>
                 </div>
             </div>
-            <div class="popup-image">
-                <span>&times;</span>
-                <img src="images/menu-1.png" alt="">
-            </div>
+            
         </section>
         <section class="container-fluid" id="banner">
            <div class="container w-50 pt-5 float-end h-50 mt-5">
@@ -191,28 +188,7 @@ function pauseVid() {
     x.className = "topnav";
   }
 };
-document.onreadystatechange = function() {
-        if (document.readyState !== "complete") {
-            document.querySelector(
-            "body").style.visibility = "hidden";
-            document.querySelector(
-            "#loader").style.visibility = "visible";
-        } else {
-            document.querySelector(
-            "#loader").style.display = "none";
-            document.querySelector(
-            "body").style.visibility = "visible";
-        }
-    };
-document.querySelectorAll('.image-container img').forEach(all =>{
-    all.onclick = () =>{
-        document.querySelector('.popup-image').style.display='block';
-      
-    }
-});
-document.querySelector('.popup-image span').onclick = () =>{
-    document.querySelector('.popup-image').style.display='none';
-}
+
     </script>
 </body>
 
