@@ -46,10 +46,14 @@ header .container{
     width: 50px;
     z-index: 3;
     left: 1%;
+     border: none;
 }
 
+.b1{
+    top: 5%;
+}
 .b2{
-    top: 10%;
+    top: 18%;
 }
 video{
     width: 100%;
@@ -156,7 +160,12 @@ form{
     .logo{
         display: none;
       }
-  
+    .b1{
+        top: 2%;
+    }
+    .b2{
+        top: 10%;
+    }
 
     .topnav.responsive 
     {position: relative;}
